@@ -1,0 +1,554 @@
+
+
+h1, h2, h3,h4,h5, h6{
+	font-family: 'Marcellus', serif;
+}
+li, p{font-family: 'Poppins', sans-serif;}
+
+.header{
+	background-color: #000000;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	
+}
+.content{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.header img{
+	max-width: 100%;
+	width: 190px;
+    margin-bottom: 75px;
+}
+
+.header h2{
+	font-size: 59px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.header p{
+	font-size: 23px;
+	color:#fff;
+	font-weight: 400;
+
+}
+
+.dropdown-button{
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+}
+.dropdown-button a{
+	text-decoration: none;
+}
+.dropdown-button .submit {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    height: 45px;
+    padding: 23px 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 5px;
+}
+
+.dropdown-button .submit:hover{
+	cursor: pointer;
+	background-color: #fff;
+	color: #000;
+}
+.formselectwrap {
+  position: relative;
+  width: 350px;
+}
+
+.formselectwrap select {
+  display: none; /*hide original SELECT element:*/
+}
+
+.formselectwrap .select-selected {
+  background-color: #fff;
+ border-radius: 100px;
+ text-align: left;
+ text-transform: uppercase;
+}
+
+/*style the arrow inside the select element:*/
+.formselectwrap .select-selected:after {
+  position: absolute;
+  content: "";
+
+  width: 0;
+  height: 0;
+  border: solid rgba(23, 20, 20, 0.6);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 20px;
+  top: 40%;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.formselectwrap .select-selected.select-arrow-active:after {
+  transform: rotate(223deg);
+}
+
+/*style the items (options), including the selected item:*/
+.formselectwrap .select-items div,
+.select-selected {
+  color: #171414;
+  padding: 11px 16px;
+  border: 1px solid transparent;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.formselectwrap .select-items {
+  position: absolute;
+    background-color: #ffffff;
+    top: 100%;
+    left: 0px;
+    right: 0;
+    z-index: 99;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 38px 0px rgb(56 56 56 / 20%);
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/*hide the items when the select box is closed:*/
+.formselectwrap .select-hide {
+  display: none;
+}
+
+.formselectwrap .select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+.popular-events{
+	padding-top:100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+.popular-events h2{
+	font-size: 45px;
+	color: #000;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+.popular-events a{
+	text-decoration: none;
+	color: #000;
+}
+.popular-events .item{
+	padding: 55px 25px;
+	box-shadow: 0px 0px 38px 0px rgba(185, 185, 185, 0.52);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+
+.popular-events .item:hover {
+ cursor: pointer;
+ background-color: #f7f7f7;
+}
+
+.popular-events .item img{
+	max-width: 100%;
+	margin-bottom: 15px;
+}
+.popular-events .item p{
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.footer{
+	background-color: #f2f1f2;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #4b4c4e;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.footer p{
+	margin-bottom: 0px;
+}
+
+
+/*------------------------checklist page--------------------------*/
+
+.black-header{
+	background-color: #000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.black-header img{
+	max-width: 100%;
+	width: 150px;
+}
+
+
+
+
+.check-list{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.check-list .content{
+	padding:40px;
+	box-shadow: 0px 0px 38px 0px rgba(185, 185, 185, 0.52);
+	text-align: left;
+}
+.check-list .content h2{
+	font-size: 38px;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.check-list .content .item{
+	margin-bottom: 40px;
+}
+.check-list .content .item h4 {
+    font-size: 17px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.check-list input[type="checkbox"] {
+  display: none;
+}
+
+.check-list input[type="checkbox"]:hover + label:before {
+  opacity: 0.5;
+}
+
+.check-list .checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 29px;
+    line-height: 23px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #111;
+    font-weight: 400;
+}
+
+.check-list .checkbox:before {
+    z-index: 15;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    height: 20px;
+}
+.check-list input[type="checkbox"]:checked + label {
+  color: #000;
+}
+
+.check-list input[type="checkbox"]:checked + label:before {
+  border-color: transparent;
+  border-left-color: #000000;
+  border-bottom-color: #000000;
+  transform: rotate(-50deg);
+  width: 22px;
+  height: 12px;
+  top: 3px;
+}
+
+.front-back{
+	padding-top: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    border-top: 1px solid #dedede;
+
+}
+
+
+.front-back a{
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 100px;
+	text-decoration: none;
+	opacity: 0.9;
+	font-size: 15px;
+
+}
+.front-back a:hover{
+opacity: 1;
+}
+
+.front-back .back{
+	background-color: #333;
+	margin-right: 5px;
+}
+.front-back .front{
+	background-color: #000;
+}
+
+/*------------------------checklist page--------------------------*/
+
+/*--------------------------personal details --------------------------------------*/
+
+.personal-detail{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.personal-detail .content{
+	padding:40px;
+	box-shadow: 0px 0px 38px 0px rgba(185, 185, 185, 0.52);
+	text-align: left;
+}
+.personal-detail .content h2{
+	font-size: 38px;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.personal-detail .form-control{
+	border-bottom: 1px solid #dedede;
+	border-left: 0px;
+	border-top: 0px;
+	border-right: 0px;
+	border-radius: 0px;
+	color: #000;
+	margin-bottom: 25px;
+	box-shadow: none;
+}
+
+
+/*--------------------------personal details --------------------------------------*/
+
+/*------------------------sucss--------------------------------*/
+.sucess{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+.sucess img{
+	max-width: 100%;
+	margin-bottom: 15px;
+}
+.sucess  h4{
+	font-size: 34px;
+	color: #000;
+	font-weight: 500;
+
+}
+.sucess p{
+	font-size: 17px;
+	color: #000;
+	font-weight: 400;
+}
+
+.terms{
+	padding-top: 75px;
+	padding-bottom: 75px;
+	text-align: left;
+}
+
+.terms h2{
+	font-size: 27px;
+	color: #000;
+}
+
+.terms ul{
+	margin-top: 15px;
+	padding-left: 20px;
+	padding-bottom: 25px;
+}
+.terms ul li{
+	font-size: 15px;
+	font-weight: 400;
+	padding-top: 7px;
+	line-height: 20px;
+}
+
+.price-table{
+	margin-bottom: 25px;
+}
+
+.terms .contact-submit {
+    color: #fff;
+    background-color: #000;
+   padding: 8px 30px;
+    border-radius: 100px;
+    text-decoration: none;
+    border: 0px;
+    font-size: 15px;
+    box-shadow: none;
+
+}
+
+.terms .form-check {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************Responsive Styles******************************************/
+/**************iPad Landscape***************/
+@media only screen and ( max-width: 1024px ) and (min-width: 986px){
+
+
+.popular-events .item {
+    min-height: 230px;
+}
+.front-back {
+    padding-top: 30px;
+}
+
+}
+
+
+/********************************************//**************iPad Portrait***************/
+@media only screen and (max-width: 985px) and (min-width: 768px){
+
+
+.header h2 {
+    font-size: 50px;	
+}
+.front-back {
+    padding-top: 30px;
+}
+
+}
+/**********************************//***************iPhone Landscape*************/
+@media only screen and (max-width: 767px) and (min-width: 480px){
+
+.header img {
+    width: 167px;
+}
+
+.header h2 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+}
+.drop-search .form-control {
+	margin-right: 2px;
+    width: 415px;
+}
+.popular-events {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.popular-events .item p {
+    font-size: 14px;
+}
+.black-header img {
+    width: 90px;
+}
+.check-list .content h2 {
+    font-size: 26px;
+}
+.check-list .content .item h4 {
+    font-size: 16px;;
+    font-weight: 600;
+}
+.front-back {
+    padding-top: 30px;
+}
+
+}
+/*******************************************/
+/***************iPhone Portrait**************/
+@media only screen and (max-width: 479px) and (min-width: 320px){
+
+.header img {
+    width: 160px;
+    margin-bottom: 45px;
+}
+
+.header h2 {
+    font-size: 26px;
+}
+.header p {
+    font-size: 18px;
+}
+.drop-search .form-control {
+    width: 216px;
+    margin-right: 4px;
+}
+
+.popular-events {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.popular-events h2 {
+    font-size: 30px;
+}
+.footer {
+    font-size: 13px;
+}
+.black-header img {
+    width: 90px;
+}
+.check-list .content h2 {
+    font-size: 22px;
+}
+.check-list .content .item h4 {
+    font-size: 16px;;
+    font-weight: 600;
+}
+.front-back {
+    padding-top: 30px;
+}
+
+}

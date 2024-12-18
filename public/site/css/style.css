@@ -1,0 +1,1017 @@
+body{
+	background-color: #fff;
+}
+
+h1, h2, h3,h4,h5, h6{
+	font-family: 'Playfair Display', serif;
+}
+li, p, span{font-family: 'Poppins', sans-serif;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+	position: absolute;
+	right: 0;
+	background-repeat: no-repeat;
+	top: 230px;
+    left: 35%;
+    opacity: 0.7;
+
+}
+
+.about{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+.about h1{
+	font-size: 40px;
+	color: #1f1f1f;
+	text-transform: uppercase;
+	line-height: 46px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+.about p{
+	font-size: 17px;
+	color: #1f1f1f;
+	line-height: 27px;
+	font-weight: 400;
+}
+
+
+.about .videos{
+	margin-top: 35px;
+}
+
+.about .videos .item{
+	position: relative;
+    margin-bottom: 25px;
+    min-height: 345px;
+    max-height: 345px;
+    height: 345px;
+    overflow: hidden;
+}
+.about .videos .item img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .videos .item .play{
+	position: absolute;
+	left: 0;
+	right: 0;
+	background-image: url(../images/play.png);
+	background-repeat: no-repeat;
+	width: 39px;
+	height: 39px;
+	top: 44%;
+    left: 50%;
+    cursor: pointer;
+}
+
+
+.show-works{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-image: url(../images/showworks.jpg);
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+}
+.show-works .content{
+	padding-top: 100px;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+.show-works .content h1{
+	font-size: 43px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.show-works .content p{
+	font-size: 17px;
+	line-height: 27px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.show-works .content a{
+	color: #3d3d3d;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 14px 25px;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #fff;
+	font-weight: 500;
+
+}
+
+.show-works .content a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+
+.photography-section{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.photography-section .item:after {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.photography-section .item img{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s;
+    transform: scale(1.01);
+
+}
+.photography-section .item{
+	 position: relative;
+	 margin-bottom: 27px;
+  
+}
+.photography-section .item .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.photography-section .item:hover .overlay {
+  opacity: 0.7;
+}
+
+.photography-section .item .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
+.blog-section{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #f5f5f5;
+}
+
+
+.blog-section h1{
+	font-size: 40px;
+	color: #1f1f1f;
+	text-transform: uppercase;
+	line-height: 46px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+
+.blog-section .item{
+	text-align: left;
+}
+
+.blog-section .item img{
+	max-width: 100%;
+}
+
+.blog-section .item p{
+	font-size: 17px;
+	font-weight: 300;
+	color: #7a7a7a;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.blog-section .item h4{
+	text-transform: uppercase;
+	color: #1f1f1f;
+	font-size: 23px;
+	font-weight: 400;
+	line-height: 27px;
+}
+.blog-section .item a{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #3d3d3d;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+
+.planyour-event{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-image: url(../images/plan.jpg);
+	
+}
+.planyour-event .content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.planyour-event p{
+	font-size: 16px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.planyour-event h4{
+	font-size: 39px;
+	color: #fff;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+
+.planyour-event a{
+	color: #3d3d3d;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 14px 25px;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: #fff;
+	font-weight: 500;
+
+}
+
+.planyour-event a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.instagram-section{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+.instagram-section h1{
+	font-size: 40px;
+	color: #1f1f1f;
+	text-transform: uppercase;
+	line-height: 46px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+
+.instagram-section img{
+	max-width: 100%;
+}
+.instagram-section .item{
+	 position: relative;
+  
+}
+.instagram-section .item .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.instagram-section .item:hover .overlay {
+  opacity: 0.7;
+}
+.instagram-section .item:hover .icon {
+  opacity: 1;
+}
+
+.instagram-section .item .icon {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
+.footer{
+	background-color: #222222;
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+.footer .item{
+	text-align: left;
+}
+.footer .item img{
+	max-width: 100%;
+}
+.footer .item .social{
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.footer .item .social a{
+	color: #fff;
+	font-size: 23px;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+.footer .item .social a:hover{
+	color: #dedede;
+}
+.footer .item h4{
+	color: #fff;
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.footer .item p{
+	font-size: 15px;
+	font-weight: 300;
+	color: #f7f7f7;
+}
+.footer .item ul{
+	padding-left: 0px;
+
+}
+.footer .item ul a{
+	font-size: 15px;
+	font-weight: 300;
+	color: #f7f7f7;
+	text-decoration: none;
+}
+.footer .item ul a:hover{
+	color: #dedede;
+}
+.footer .item ul li{
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+
+
+.copy-right{
+	text-align: center;
+	margin-top: 45px;
+}
+
+.copy-right p{
+	font-size: 15px;
+	color: #f7f7f7;
+	font-weight: 300;
+}
+
+
+
+
+/*-------------------------------inner page css-----------------------------------*/
+
+.inner-banner{
+	background-image: url(../images/innerbanner.jpg);
+	background-repeat: no-repeat;
+	min-height: 540px;
+}
+
+.inner-logo{
+	text-align: left;
+	margin-top: 17px;
+}
+.inner-logo img{
+	width: 180px;
+}
+.inner-banner .mobile-nav-button{
+	margin-top: 45px;
+}
+
+
+.featured-wedding{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+.featured-wedding h1{
+	font-size: 40px;
+	color: #1f1f1f;
+	text-transform: uppercase;
+	line-height: 46px;
+	font-weight: 400;
+	margin-bottom: 45px;
+}
+
+.featured-wedding .item img{
+	max-width: 100%;
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.featured-wedding .item{
+	 position: relative;
+	 margin-bottom: 27px;
+	 min-height: 350px;
+	 max-height: 350px;
+	 height: 350px;
+	 overflow: hidden;
+  
+}
+.featured-wedding .item .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.featured-wedding .item:hover .overlay {
+  opacity: 0.7;
+}
+
+.featured-wedding .item .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+
+
+/*---------------------------Details Page----------------------*/
+.wedding-planner{
+	background-image: url(../images/wedding_planner.jpg);
+	
+}
+
+
+.detials{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: left;
+}
+
+
+
+.detials h1{
+	font-size: 40px;
+	color: #1f1f1f;
+	text-transform: uppercase;
+	line-height: 46px;
+	font-weight: 400;
+}
+
+.detials .date{
+	font-size: 20px;
+	font-weight: 400;
+	color: #7a7a7a;
+	margin-bottom: 45px;
+
+}
+
+.detials p{
+	color: #1f1f1f;
+	font-size: 17px;
+}
+
+.detials ul{
+	padding-left: 0px;
+	margin-top: 45px;
+}
+.detials ul li{
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+.details-items{
+	padding-bottom: 45px;
+}
+.details-items .item{
+	margin-bottom: 25px;
+	min-height: 350px;
+	max-height: 350px;
+	height: 350px;
+	overflow: hidden;
+}
+.details-items .item img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog{
+	background-image: url(../images/blog.jpg);
+	
+}
+.blogs{
+	padding-top: 70px;
+	padding-bottom: 35px;
+}
+
+.blogs .item{
+	margin-bottom: 35px;
+
+}
+.blogs .item img{
+	max-width: 100%;
+}
+.blogs .item .post-date{
+	font-size: 17px;
+	font-weight: 400;
+	color: #a09c9c;
+}
+.blogs .item h2{
+	font-size: 26px;
+	font-weight: 400;
+	color: #1f1f1f;
+	line-height: 36px;
+	margin-top: 8px;
+
+}
+.blogs .item p{
+	font-size: 17px;
+	color: #1f1f1f;
+	line-height: 24px;
+	font-weight: 400;
+	margin-bottom: 26px;
+}
+
+.blogs .item a{
+	color: #393939;
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+	padding: 10px 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.blogs .item a:hover{
+	background-color: #1f1f1f;
+	color: #fff;
+}
+
+
+
+
+.blog-detail{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.blog-detail img{
+	max-width: 100%;
+}
+
+.blog-detail .item{
+	margin-bottom: 20px;
+}
+
+.blog-detail .post-date{
+	font-size: 17px;
+	font-weight: 400;
+	color: #a09c9c;
+	margin-top: 25px;
+}
+.blog-detail h2{
+	font-size: 26px;
+	font-weight: 400;
+	color: #1f1f1f;
+	line-height: 36px;
+	margin-top: 8px;
+}
+.blog-detail p{
+	font-size: 17px;
+	color: #1f1f1f;
+	line-height: 24px;
+	font-weight: 400;
+	margin-bottom: 26px;
+	margin-top: 25px;
+}
+
+
+.contact{
+	background-image: url(../images/contact.jpg);
+}
+
+.contact-detail{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: left;
+}
+
+.contact-detail h1{
+	font-size: 32px;
+	color: #1f1f1f;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.contact-detail p{
+	font-size: 17px;
+	color: #1f1f1f;
+	line-height: 24px;
+	font-weight: 400;
+	margin-bottom: 26px;
+	margin-top: 25px;
+}
+
+.contact-detail h5{
+	font-size: 18px;
+	color: #1f1f1f;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.contact-detail span{
+	font-weight: 400;
+}
+
+.contact-section{
+	background-image: url(../images/contact_form.jpg);
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.contact-form{
+	background-color: #fff;
+	padding: 40px 25px;
+}
+
+.contact-form h4{
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #1f1f1f;
+	text-align: center;
+}
+.contact-form p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #1f1f1f;
+	text-align: center;
+}
+
+.contact-button{
+	text-align: center;
+	margin-top: 20px;
+	
+}
+
+.contact-button .contact-submit{
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #181a1b;
+	padding: 15px 175px;
+	border: 0px;
+}
+.contact-form .form-control {
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	color: #858585;
+}
+
+.text-area{
+	color: #858585;
+}
+.contact-form .form-control.filed{
+	height: 49px;
+}
+
+
+
+
+
+/***************************************Responsive Styles******************************************/
+/**************iPad Landscape***************/
+@media only screen and ( max-width: 1024px ) and (min-width: 986px){
+
+
+.inner-banner{
+	min-height: 270px;
+	background-size: cover;
+	background-position: center;
+}
+
+}
+
+
+/********************************************//**************iPad Portrait***************/
+@media only screen and (max-width: 985px) and (min-width: 768px){
+
+.logo{
+	top:146px;
+    left: 36%;
+}
+
+
+.logo img{
+	width: 200px;
+}
+.planyour-event a{
+	font-size: 12px;
+}
+.about h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+.show-works .content h1 {
+    font-size: 36px;
+}
+.blog-section h1 {
+    font-size: 31px;
+}
+.instagram-section h1{
+font-size: 28px;
+    line-height: 33px;
+}
+/*-------------------------------inner page css----------------------------------*/
+
+.mobile-menu ul {
+    position: relative;
+    top: 35%;
+}
+.inner-banner{
+	min-height: 270px;
+	background-size: cover;
+	background-position: center;
+}
+.contact-form h4{
+	font-size: 22px;
+}
+
+}
+
+
+
+
+
+
+/**********************************//***************iPhone Landscape*************/
+@media only screen and (max-width: 767px) and (min-width: 480px){
+.mobile-menu ul li a{
+	font-size: 30px;
+}
+
+
+.logo{
+	top:146px;
+    left: 36%;
+}
+
+
+.logo img{
+	width: 160px;
+}
+.about{
+	padding-top: 36px;
+}
+.about h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+.about .videos .item img{
+	width: 100%;
+}
+.show-works .content{
+	padding-top: 25px;
+}
+.show-works .content h1 {
+    font-size: 36px;
+}
+.photography-section img{
+	width: 100%;
+}
+.blog-section h1 {
+    font-size: 31px;
+}
+.blog-section .item{
+	margin-bottom: 35px;
+}
+.blog-section .item h4 {
+    font-size: 20px;
+
+}
+.blog-section .item img{
+	width: 100%;
+}
+
+.planyour-event{
+	background-position: center;
+}
+.planyour-event h4{
+	margin-bottom: 20px;
+}
+
+.instagram-section h1{
+font-size: 26px;
+    line-height: 33px;
+}
+
+.instagram-section .item{
+	margin-bottom: 15px;
+}
+.instagram-section .item img{
+	width: 100%;
+}
+
+
+/*----------------------inner page css-------------------------*/
+
+.featured-wedding img{
+	width: 100%;
+}
+
+
+.wedding-planner{
+	background-position: center;
+	background-size: cover;
+}
+.detials{
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.inner-banner{
+	min-height: 270px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.contact-button .contact-submit{
+	padding: 15px 104px;
+}
+
+
+}
+/*******************************************/
+
+
+
+
+
+
+
+
+
+/***************iPhone Portrait**************/
+@media only screen and (max-width: 479px) and (min-width: 320px){
+
+
+.mobile-menu ul li a{
+	font-size: 26px;
+}
+
+
+.logo{
+	top:90px;
+    left: 31%;
+}
+
+
+
+.logo img{
+	width: 127px;
+}
+.about{
+	padding-top: 36px;
+}
+.about h1 {
+    font-size: 28px;
+    line-height: 33px;
+}
+.show-works .content{
+	padding-top: 25px;
+}
+.show-works .content h1 {
+    font-size: 36px;
+}
+.blog-section h1 {
+    font-size: 31px;
+}
+.blog-section .item{
+	margin-bottom: 35px;
+}
+.blog-section .item h4 {
+    font-size: 20px;
+
+}
+
+.planyour-event{
+	background-position: center;
+}
+.planyour-event h4{
+	margin-bottom: 20px;
+}
+
+.instagram-section h1{
+font-size: 28px;
+    line-height: 33px;
+}
+
+.instagram-section .item{
+	margin-bottom: 15px;
+}
+.instagram-section .item img{
+	width: 100%;
+}
+
+.featured-wedding h1{
+	font-size: 28px;
+}
+
+/*-----------------------------------inner page css------------------------------*/
+.inner-banner{
+	min-height: 270px;
+	background-size: cover;
+	background-position: center;
+}
+.inner-logo img{
+	width: 127px;
+}
+.inner-banner .mobile-nav-button{
+	margin-top: 0px;
+	top: -48px;
+}
+
+.featured-wedding img{
+	width: 100%;
+}
+
+
+.wedding-planner{
+	background-position: center;
+	background-size: cover;
+}
+.detials{
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.detials h1{
+	font-size: 30px;
+}
+
+.contact-button .contact-submit{
+	padding: 15px 66px;
+}
+
+
+}
